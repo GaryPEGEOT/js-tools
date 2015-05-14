@@ -1,5 +1,5 @@
 # Turn a string like 'foo' to 'Foo'
-String.prototype.capitalize = -> @.charAt(0).toUpperCase() + @[1..].toLowercase()
+String.prototype.capitalize = -> @.charAt(0).toUpperCase() + @[1..].toLowerCase()
 
 # Turn a string like 'foo_bar' to 'fooBar'
 String.prototype.toCamelCase = -> 
