@@ -7,6 +7,6 @@ Add part or all the files in the `lib` directory to your website or directly on 
 ## Examples
 ```javascript
 'foo'.capitalize();         // return 'Foo'
-'foo_bar'.toCamelCase();    // return 'Foo'
+'foo_bar'.toCamelCase();    // return 'fooBar'
 'fooBar'.toUnderScore();    // return 'foo_bar'
 ```
