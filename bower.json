@@ -1,0 +1,24 @@
+{
+  "name": "js-tools",
+  "version": "0.0.1",
+  "homepage": "https://github.com/GaryPEGEOT/js-tools",
+  "authors": [
+    "Gary <garypegeot@gmail.com>"
+  ],
+  "description": "Add some useful complementary functions to your scripts",
+  "keywords": [
+    "JavaScript",
+    "Tools",
+    "Capitalize",
+    "Average",
+    "CamelCase"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
