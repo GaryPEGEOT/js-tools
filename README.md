@@ -12,9 +12,7 @@ Add part or all the files in the `lib` directory to your website or directly on 
 'fooBar'.toUnderScore();    // return 'foo_bar'
 
 //Array
-[1, 2, 3, 4, 5, 6].average() // return 3.5
-var numbers = [1, 2, 3, 4, 5, 6];
-  
+var numbers = [1, 2, 3, 4, 5, 6];  
 numbers.average();              // return 3.5
 numbers.variance();             // return 2.9166666666666665
 numbers.standardDeviation();    // return 1.707825127659933
