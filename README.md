@@ -1,4 +1,4 @@
-# js-utils
+# js-tools
 Add some useful complementary functions to your scripts
 
 ## Installation
