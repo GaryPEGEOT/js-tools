@@ -8,4 +8,4 @@ String.prototype.toCamelCase = ->
 
 # Turn a string like 'fooBar' to 'foo_bar'
 String.prototype.toUnderScore = -> 
-    @.replace(/[A-Z]/g, (letter) -> '_' + letter.toLowerCase())
+    @.replace /[A-Z]/g, (letter, index) -> if index is 0 then letter.toLowerCase() else '_' + letter.toLowerCase()
