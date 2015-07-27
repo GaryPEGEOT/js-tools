@@ -1,10 +1,14 @@
 {
   "name": "js-tools",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "homepage": "https://github.com/GaryPEGEOT/js-tools",
   "authors": [
     "Gary <garypegeot@gmail.com>"
   ],
+  "main": [
+      'lib/Array.js',
+      'lib/String.js'
+  ]
   "description": "Add some useful complementary functions to your scripts",
   "keywords": [
     "JavaScript",
